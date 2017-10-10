@@ -17,16 +17,18 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_marginTop="200dp"
-            android:layout_marginLeft="140dp">
+            android:layout_marginLeft="50dp">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="40sp"
                 android:text="Weight: " />
 
             <TextView
                 android:id="@+id/weightView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="40sp"
                 android:text="N/C"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
@@ -42,7 +44,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:layout_marginLeft="140dp"
+                android:layout_marginLeft="50dp"
+                android:textSize="40sp"
                 android:text="Battery: " />
 
             <TextView
@@ -50,6 +53,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
+                android:textSize="40sp"
                 android:text="N/C" />
         </LinearLayout>
 
